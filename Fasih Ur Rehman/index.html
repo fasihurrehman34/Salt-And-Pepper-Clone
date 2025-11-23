@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Salt'n Pepper Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/744dbd8230.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ 
+    <style>
+        @media screen and (max-width: 1000px) {
+    .kk{
+        width: 250px;
+        /* padding-right: 20px; */
+    }
+    
+}
+
+@media screen and  (max-width:1040px){
+    .computer{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:1041px){
+    .mobile{
+        display: none;
+    }
+
+    
+}
+
+
+    @media screen and (max-width: 600px){
+        .bahawalpur{
+            display: block;
+        }
+
+        .islamabad{
+            display: block;
+        }
+        .faisalabad{
+            display: block;
+        }
+
+        .child{
+            width: 180px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Img/logo.png" alt="logo">
+        </div>
+        <div class="link">
+            <nav>
+                <ul>
+                    <li class="ay"><a href="#" class="ax">Home</a></li>
+                    <li class="ay"><a href="#" class="ax">About Us</a></li>
+                    <li class="ay"><a href="#" class="ax">Publications</a></li>
+                </ul>
+            </nav>
+            <button class="btn-franchise">Get a Franchise</button>
+            <button class="btn-order">Order Online <span class="arrow"><i class="fa-solid fa-arrow-right" style="color: #e71d36;"></i></span></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./Img/pexels-chanwalrus-958545.jpg" class="d-block w-100 img1" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./Img/pexels-life-of-pix-67468.jpg" class="d-block w-100 img1" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Img/pexels-pixabay-262978.jpg" class="d-block w-100 img1" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="card-heading">
+                <h2>Welcome to <span class="logo-heading"><img src="./Img/badshah.png" alt="BADSHAH"></span> <br> Restaurants! Our Brands</h2>
+                <p>Please click our brands below for further information, reservations or to order online!</p>
+            </div>
+            <div class="brand-logo">
+                <div class="brand-items">
+                    <div class="brand-item">
+                        <img src="./Img/badshah-restraurant.png" alt="Salt'n Pepper Restaurant">
+                        <button>Order Now</button>
+                    </div>
+                    <div class="brand-item">
+                        <img src="./Img/badshah-express.png" alt="Salt'n Pepper Express">
+                        <button>Order Now</button>
+                    </div>
+                    <div class="brand-item">
+                        <img src="./Img/badshah-village.png" alt="Salt'n Pepper Village">
+                        <button>Reserve a Table</button>
+                    </div>
+                    <div class="brand-item">
+                        <img src="./Img/badshah-signature.png" alt="Salt'n Pepper Signature">
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        
+            <section class="section3">
+        <div class="container">
+            <div class="row">
+                <div class="main-heading">
+                    <h2><span class="logo-heading"><img src="./Img/badshah.png" alt="BADSHAH"></span>
+                    <br>
+                    Restaurant Franchises
+                </h2>
+                <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+                </div>
+            </div>
+            <div class="right-img-parent">
+                <div class="right-img">
+                    <img src="https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp" alt="Right side image for container">
+                </div>
+            </div>
+            <div class="information-parent islamabad">
+                <div class="information islamabad-information">
+                    <small>Islamabad</small>
+                    <h3><span class="logo-heading"><img src="./Img/badshah.png" alt="Salt And Paper" width="142px"></span> Restaurant</h3>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 051-2604904-6</p>
+                    <button class="get-directions button">Get Directions <span class="arrow arrow2">➜</span></button>
+                </div>
+                <div class="information-image islamabad-image">
+                    <img src="Img/Restraunt-islamabad.jpg" class="kk" alt="islamabad-image">
+                </div>
+            </div>
+
+            <div class="information-parent faisalabad computer">                
+                <div class="information-image faisalabad-image">
+                    <img src="./Img/Restraunt-faisalabad.jpg" class="kk" alt="faisalabad-image">
+                </div>
+                <div class="information faisalabad-information" style="width: 470px;">
+                    <small>faisalabad</small>
+                    <h3><span class="logo-heading"><img src="./Img/badshah.png" alt="Salt And Paper" width="142px"></span> Restaurant</h3>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Kohinoor City, Faisalabad</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 041-8711404</p>
+                    <button class="get-directions button">Get Directions <span class="arrow arrow2">➜</span></button>
+                </div>
+            </div>
+
+            <div class="information-parent faisalabad mobile">                
+                <div class="information faisalabad-information">
+                    <small>faisalabad</small>
+                    <h3><span class="logo-heading"><img src="./Img/badshah.png" alt="Salt And Paper" width="142px"></span> Restaurant</h3>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Kohinoor City, Faisalabad</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 041-8711404</p>
+                    <button class="get-directions button">Get Directions <span class="arrow arrow2">➜</span></button>
+                </div>
+                <div class="information-image faisalabad-image">
+                    <img src="Img/Restraunt-faisalabad.jpg" class="kk" alt="faisalabad-image">
+                </div>
+            </div>            
+
+            <div class="information-parent bahawalpur">
+                <div class="information bahawalpur-information">
+                    <small>bahawalpur</small>
+                    <h3><span class="logo-heading"><img src="./Img/badshah.png" alt="Salt And Paper" width="142px"></span> Restaurant</h3>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>D.C Chowk, opposite Commissioner House, Bahawalpur</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 062-2740271-2</p>
+                    <button class="get-directions button">Get Directions <span class="arrow arrow2">➜</span></button>
+                </div>
+                <div class="information-image islamabad-image">
+                    <img src="./Img/Restraunt-bahawalpur.jpg" class="kk" alt="Bahawal pur-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="section4">
+        <div class="container2 mobile">
+            <h2><span class="logo-heading"><img src="./Img/badshah.png" alt="BADSHAH"></span> <br> Express Franchises</h2>
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/sargodha.jpg" alt=".." width="400px">
+                    <small>sargodha</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Opposite Sargodha Arts Council Babar Road</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 048-3725500</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/jehelum.jpg" alt=".." width="400px">
+                    <small>Jhelum</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0307-7675555</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/faisal town.jpg" alt=".." width="400px">
+                    <small>Faisal Town</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/dha.jpg" alt=".." width="400px">
+                    <small>DHA</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 93-Y Phase III, DHA,Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/bahria-town.jpg" alt=".." width="400px">
+                    <small>Bahria Town</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/Gujar-town.jpg" alt=".." width="400px" height="267px">
+                    <small>Gujar Khan</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>New Metro City Gujar Khan</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0321-1114965</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/lahore.jpg" alt=".." width="400px">
+                    <small>Lahore</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Shop no.5, Arcade Block, Fortress Stadium, Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-366-23-100</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child childa">
+                    <img src="./Img/gujrat.jpg" alt=".." width="400px">
+                    <small>Gujrat</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Service Mor, Gujrat</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0311-1124600</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="container2 computer">
+            <h2><span class="logo-heading"><img src="./Img/badshah.png" alt="BADSHAH"></span> <br> Express Franchises</h2>
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/sargodha.jpg" alt=".." width="400px">
+                    <small>sargodha</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Opposite Sargodha Arts Council Babar Road</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 048-3725500</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/jehelum.jpg" alt=".." width="400px">
+                    <small>Jhelum</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0307-7675555</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/faisal town.jpg" alt=".." width="400px">
+                    <small>Faisal Town</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/dha.jpg" alt=".." width="400px">
+                    <small>DHA</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 93-Y Phase III, DHA,Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/bahria-town.jpg" alt=".." width="400px">
+                    <small>Bahria Town</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-111-100-678</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child">
+                    <img src="./Img/Gujar-town.jpg" alt=".." width="400px" height="267px">
+                    <small>Gujar Khan</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>New Metro City Gujar Khan</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0321-1114965</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+
+            <div class="parent1">
+                <div class="child">
+                    <img src="./Img/lahore.jpg" alt=".." width="400px">
+                    <small>Lahore</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Shop no.5, Arcade Block, Fortress Stadium, Lahore</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 042-366-23-100</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child childa">
+                    <img src="./Img/gujrat.jpg" alt=".." width="400px">
+                    <small>Gujrat</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Service Mor, Gujrat</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 0311-1124600</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+                <div class="child childa computer">
+                    <img src="./Img/sahiwal.jpg" alt=".." width="400px">
+                    <small>Sahiwal</small>
+                    <h4><img src="./Img/badshah.png" width="180px" alt="BADSHAH"> Express</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>Opposite Main Gate Police Line, Sahiwal</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Ph: 040-4515485</p>
+                    <button class="express-button button">Get Directions <span class="">↗</span></button>
+                </div>
+
+            </div>
+            
+        </div>
+        </div>    
+
+    </section>
+
+
+        <section class="section5">
+        <div class="container4">
+            <h2><span class="logo-heading"><img src="./Img/badshah.png" alt="badshah"></span> <br> Express Franchises <span class="open">(Opening Soon)</span></h2>
+            <div class="parent2">
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+            </div>
+            <div class="parent2 parentb">
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+                <div class="child1">
+                    <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt="Location">
+                    <small>Opening soon</small>
+                    <h4><span class="h4child">Salt'n Pepper</span> Express</h4>
+                    <p>Blue World City</p>
+                    <p>Rawalpindi</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    </main>    
+
+        <footer>
+        <section class="footer-section">
+            <div class="footer-div">
+                <div class="footer-information">                    
+                    <img src="https://static.tossdown.com/images/da52b9b3-ba03-4d41-bc8f-ac9e7d6a598b.webp" alt="Logo">
+                    <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+                    <span>Terms & conditions</span><span>Privacy policy</span>
+                    </div>
+                <div class="footer-links">
+                    <h3>Site links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Get a Franchise</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <h3>Contact Us</h3>
+                    <p class="footer-heading">Head office Address</p>
+                    <p class="address footer-p">Foodconsults (Pvt) Ltd 23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+                    <p class="footer-heading">Head office number</p>
+                    <p class="number footer-p">+92 42 358 509 31</p>
+                    <p class="number footer-p">+92 42 358 509 30</p>
+                    <p class="footer-heading">Email Address</p>
+                    <p class="email footer-p">snpfood@brain.net.pk</p>
+
+                </div>
+                <div class="follow-us">
+                    <h3>Follow Us</h3>
+                    <div class="icon">
+                        <div class="facebook icons">
+                            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="instagram icons">
+                            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="twitter icons">
+                            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+
+                    <div class="download playstore">
+                        <img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" alt="Play Store">
+                    </div>
+                    <div class="download appstore">
+                        <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" alt="App Store">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
