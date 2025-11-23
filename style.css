@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    color: #fff;
+    background-color: #111;
+    letter-spacing: -0.25px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.logo img{
+    width: 165px;
+    height: 75.53px;
+}
+
+header{
+    /* width: 100%; */
+    background-color: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap: nowrap;   
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 80px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 18px;
+}
+
+nav{
+    background-color: #000;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    background-color: #000;
+    margin-top: 12px;
+}
+
+ul li{
+    list-style: none;
+    background-color: #000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-top: 9px;
+    background-color: #000;
+}
+
+
+.btn-franchise {
+    padding: 12px 28px;
+    border-radius: 40px;
+    background: transparent;
+    color: #fff;
+    border: 1.8px solid #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-order {
+    padding: 12px 28px;
+    background: #e71d36;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.arrow {
+    color: #e71d36;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px 3px;
+}
+
+.arrow i{
+    background-color: #fff;
+}
+
+.section2 {
+    background-color: #000;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.card-heading h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.card-heading p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    opacity: 0.5;
+}
+
+.brand-items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 170px;
+}
+
+.brand-item img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    background-color: #fff;
+    padding: 0px 19px;
+}
+
+.brand-item button {
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+
+.brand-item button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 40px;
+    border: 0.2px solid rgba(255, 255, 255, 0.3);
+    padding: 7px 30px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.img1{
+    max-height: 620px;
+    min-height: 400px;
+}
+
+.section2 {
+    padding: 70px;
+    padding-bottom: 110px;
+}
+
+.section3{
+    padding-top: 50px;
+}
+
+.container {
+    margin: auto;
+}
+
+.right-img {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    z-index: -1;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.main-heading p {
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    margin-bottom: 48px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-heading h2 {
+    line-height: 60px;
+    font-size: 38px;
+}
+
+.islamabad small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #ED1C24;
+}
+
+.islamabad p img {
+    margin-top: -4px;
+    width: 23px;
+}
+
+.islamabad p {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.faisalabad small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #ED1C24;
+}
+
+.faisalabad p img {
+    margin-top: -4px;
+    width: 23px;
+}
+
+.faisalabad p {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.bahawalpur small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #ED1C24;
+}
+
+.bahawalpur p img {
+    margin-top: -4px;
+    width: 23px;
+}
+
+.bahawalpur p {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.section3 {
+    position: relative;
+}
+
+.section3 h3{
+    padding: 10px 0px;
+}
+
+.islamabad {
+    display: flex;
+    flex-wrap: nowrap;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.faisalabad {
+    display: flex;
+    flex-wrap: nowrap;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.bahawalpur {
+    display: flex;
+    flex-wrap: nowrap;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.get-directions {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 10px 15px;
+}
+
+.arrow2 {
+    padding: 1.5px 4.5px;
+}
+
+small{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #ED1C24;
+}
+
+
+.section4{
+    padding: 70px 0px 38px ;
+}
+
+.section4 h2{
+    text-align: center;
+}
+
+.section4 small{
+    display: block;
+    margin-top: 20px;
+}
+
+.parent1{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-right: 82px;
+    padding-left: 82px;
+    padding-bottom: 20PX;
+}
+
+.child{
+    text-align: center;
+    width: 420px;
+}
+
+.child p{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    font-size: 13px;
+}
+
+.child h4 img{
+    margin-top: -7px;
+}
+
+.button{
+    border: 1px solid rgba(255, 255, 255, 0.3);    
+    border-radius: 40px;
+}
+
+.express-button{
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.express-button span{
+    font-weight: bolder;
+    padding: 0.5px 4.5px;
+    border: none;
+    border-radius: 50%;
+    color: #e71d36;
+    background-color: #fff;
+}
+
+
+.section5{
+    text-align: center;
+}
+
+.open{
+    font-size: 20px;
+}
+
+.child1 p{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.child1 h4{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.child1 small{
+    background-color: #fff;
+    display: block;
+    /* color: #000; */
+    margin: 8px;
+}
+
+.h4child{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.child1 img{
+    background-color: #fff;
+    color: #000;
+    margin: 16px;
+}
+
+.child1 span{
+    background-color: #fff;
+    color: #000;
+}
+
+.child1{
+    background-color: #fff;
+    color: #000;
+    width: 455px;
+    height: 250px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.parent2{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.childa{
+    padding-bottom: 100px;
+}
+
+.footer-section{
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+
+.footer-information{
+    width: 27%;
+}
+
+.parentb{
+    padding-bottom: 110px;
+}
+
+.footer-information img{
+    padding-bottom: 24px;
+}
+
+.footer-information p{
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-information span{
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.footer-links ul li{
+    list-style: none;
+    padding-bottom: 16px;
+    display: flex;
+    text-align: center;
+    gap: 0px 5px;
+}
+
+.footer-links ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links h3{
+    padding-bottom: 24px;
+}
+
+.footer-links h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-us{
+    width: 15%;
+}
+
+.footer-links{
+    width: 12%;
+}
+
+.footer-p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-us h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.footer-heading{
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.follow-us h3{
+    padding-bottom: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icons{
+    font-size: 23px;
+    background-color: #e71d36;
+    padding: 8px 13px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.follow-us i{
+    background-color: #e71d36;
+}
+
+.icon{
+    display: flex;
+    gap: 7px;
+}
+
+.download{
+    padding-top: 20px;
+}
+
+.footer-div, .footer-heading,.footer-heading,.footer-links,.footer-p,.follow-us{
+    background-color: transparent;
+}
+
+footer div{
+    background-color: transparent;
+
+}
+
+footer img{
+    background-color: transparent;
+
+}
+
+footer p{
+    background-color: transparent;
+
+}
+
+footer h3{
+    background-color: transparent;
+}
+
+footer span{
+    background-color: transparent;
+}
+
+footer a{
+    background-color: transparent;
+}
+
+footer li{
+    background-color: transparent;
+}
+
+footer ul{
+    background-color: transparent;
+}
+
+.download{
+    cursor: pointer;
+}
+
+.ay{
+    width: 100px;
+}
+
+.kk{
+    width: 550px;
+}
+
+@media screen and (max-width: 1000pxpx) {
+    .kk{
+        width: 250px;
+    }
+}
